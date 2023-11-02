@@ -163,11 +163,11 @@ addColumnBtn.addEventListener('click', () => {
     }
     drawSpreadSheet(spreadSheet);
   } else {
-    alert(`최대 ${spreadSheetSize.COLUMNSLIMIT - 1}행까지 추가할 수 있습니다.`);
+    alert(`최대 ${spreadSheetSize.COLUMNSLIMIT - 1}열까지 추가할 수 있습니다.`);
   }
 });
 
-// row 제거하기
+// column 제거하기
 removeColumnBtn.addEventListener('click', () => {
   if (spreadSheet[0].length > 2) {
     spreadSheet.forEach((row) => row.pop());
