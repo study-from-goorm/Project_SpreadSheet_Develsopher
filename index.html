@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spread Sheet</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="spread-buttons">
+      <div>
+        <button id="export-btn" class="btn">Export Spreadsheet</button>
+      </div>
+      <div class="btn-wrap">
+        <span>Row</span>
+        <button id="add-row-btn" class="btn">Add</button>
+        <button id="remove-row-btn" class="btn">Remove</button>
+      </div>
+      <div class="btn-wrap">
+        <span>Column</span>
+        <button id="add-column-btn" class="btn">Add</button>
+        <button id="remove-column-btn" class="btn">Remove</button>
+      </div>
+      <div class="btn-wrap">
+        <span>Cell</span>
+        <div id="cell-status"></div>
+      </div>
+    </div>
+    <div id="spreadsheet-container"></div>
+
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
